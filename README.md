@@ -13,3 +13,9 @@ awk -vn1=$x -vn2=$y 'BEGIN{print n1+n2}'
 awk -vn1=$x -vn2=$y 'BEGIN{print n1-n2}'
 awk -vn1=$x -vn2=$y 'BEGIN{print n1*n2}'
 awk -vn1=$x -vn2=$y 'BEGIN{print n1/n2}'
+
+#!/bin/bash  
+for file in /Linux/*;  
+do  
+echo $file is file path \! ;  
+done  
